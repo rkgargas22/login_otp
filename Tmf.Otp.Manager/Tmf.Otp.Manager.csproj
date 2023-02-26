@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tmf.Otp.Core\Tmf.Otp.Core.csproj" />
+    <ProjectReference Include="..\Tmf.Otp.Infrastructure\Tmf.Otp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
